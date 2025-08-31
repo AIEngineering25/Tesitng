@@ -1642,6 +1642,9 @@ def test_add_param(a,b,expected):
 		assert add(a,b) == expected
 ```
 
+````
+
+
 Markers and selective runs: `pytest -m slow` if you annotate with `@pytest.mark.slow`.
 
 ### Mocking and Test Doubles
@@ -1657,7 +1660,7 @@ def test_send_email(monkeypatch):
 		with patch('myapp.email.send') as mock_send:
 				myapp.notifications.notify_user(42)
 				mock_send.assert_called_once()
-```
+````
 
 For HTTP clients use `responses` to stub requests:
 
