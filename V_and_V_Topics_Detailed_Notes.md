@@ -2269,7 +2269,3 @@ Placeholders: {lang} (java/python/js), {framework} (TestNG/JUnit/pytest/mocha), 
 - Request supporting files (pom.xml/requirements.txt/README/CI yaml) along with tests when you want a complete project.
 
 ---
-
-```
-
-```
